@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1779526_phase2_0.admin" name="x_1779526_phase2_0.admin">2705d4b8c33c3210068af64d05013194</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-22 09:15:40</sys_created_on>
+        <sys_id>ab05d4b8c33c3210068af64d0501319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2705d4b8c33c3210068af64d05013194</sys_name>
+        <sys_package display_value="Phase2 Practice (or ServiceNowPhase2)" source="x_1779526_phase2_0">ef05d4b8c33c3210068af64d0501316d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Phase2 Practice (or ServiceNowPhase2)">ef05d4b8c33c3210068af64d0501316d</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ab05d4b8c33c3210068af64d0501319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-22 09:15:40</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
