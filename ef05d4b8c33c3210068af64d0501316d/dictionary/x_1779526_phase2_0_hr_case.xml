@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b8f5a134c3b47210068af64d05013183" label="HR Case" max_length="40" name="x_1779526_phase2_0_hr_case" type="collection">
+        <element label="Description" max_length="40" name="description" type="journal_input"/>
+        <element choice="3" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="closed" sequence="2" value="closed"/>
+            </choice>
+        </element>
+        <element choice="3" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Benifits" sequence="2" value="benifits"/>
+                <element inactive_on_update="false" label="Policy" sequence="3" value="policy"/>
+                <element inactive_on_update="false" label="Payroll" sequence="1" value="payroll"/>
+                <element inactive_on_update="false" label="Leave" sequence="0" value="leave"/>
+            </choice>
+        </element>
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element label="HR Comments" max_length="40" name="hr_comments" type="journal_input"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+    </element>
+</database>
